@@ -1,0 +1,10 @@
+{
+    "presets": [
+        "env",          // this file is to load up the presets that babel uses.
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ]
+}

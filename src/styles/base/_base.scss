@@ -1,0 +1,20 @@
+//Better to work with rem for font-size
+html {
+    font-size: 62.5% //This changes the 1 rem into a 10px.
+}
+body {
+    font-family:Helvetica,Arial, Helvetica, sans-serif;
+    font-size:$m-size;
+}
+
+button {
+    cursor: pointer; // Set the cursor as a hand pointer.
+}
+
+button:disabled {
+    cursor: default; //This changes the cursor to the black mouse;
+}
+
+.is-active {
+    font-weight: bold;
+}
